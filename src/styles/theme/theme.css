@@ -1,0 +1,27 @@
+@import './variables.css';
+@import './font.css';
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	background: rgba(255, 255, 255, 0.801);
+}
+
+.custom-card {
+	background-color: #f4f4f4;
+	cursor: pointer;
+	margin: 5px 0 20px;
+	padding: 20px 30px;
+	border: 1px solid rgba(0,0,0,.125);
+	border-bottom: 3px solid rgb(0, 135, 122);
+	border-radius: 5px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	box-shadow: 0 16px 40px rgba(43,45,56,.08);
+	-webkit-box-shadow: 0 16px 40px rgba(43,45,56,.08);
+	-moz-box-shadow: 0 16px 40px rgba(43,45,56,.08);
+}
+
+.m-top {
+	margin-top: 1rem;
+}

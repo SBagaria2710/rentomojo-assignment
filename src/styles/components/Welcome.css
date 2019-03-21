@@ -1,0 +1,9 @@
+div {
+    text-align: center;
+}
+
+div p {
+    line-height: 90vh;
+    font-size: 3em;
+    font-weight: bold;
+}

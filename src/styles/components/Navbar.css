@@ -1,0 +1,11 @@
+@media (min-width: 992px) {
+    .navbar-expand .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto !important;
+    }
+    
+    .collapse:not(.show) {
+        display: flex !important;
+        flex-basis: auto !important;
+    }
+}

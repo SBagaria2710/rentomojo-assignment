@@ -1,0 +1,70 @@
+.FourO {
+    font-size: 22vw;
+    font-weight: bold;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.Four {
+    display: inline-block;
+    -ms-transform: rotate(20deg) !important;
+    -webkit-transform: rotate(20deg) !important;
+    transform: rotate(20deg) !important;
+}
+
+.gradient404 {
+    height: 150vh;
+    /* background: rgb(52, 200, 168); */
+    /* background: linear-gradient(to bottom right, #e7eb00, #cce208, #d1ce1b, #bcb32f, #a4a246, #a4a246, #9e964c); */
+    position: relative;
+}
+
+.content404 {
+    position: absolute;
+    top: 8%;
+    color: white;
+    text-align: center;
+    min-width: 320px;
+    width: 100%;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.message404 {
+    line-height: 1;
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    margin-bottom: 40px;
+}
+
+.button404 {
+    justify-content: center;
+}
+
+.redirect {
+    background: transparent;
+    border-radius: 100px !important;
+    border: 2px solid #fff !important;
+    padding: 10px 30px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.redirect:hover {
+    background-color: white;
+    color: #22c7a2;
+    font-weight: 500;
+}

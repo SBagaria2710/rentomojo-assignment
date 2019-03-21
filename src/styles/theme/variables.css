@@ -1,0 +1,15 @@
+:root {
+    /* App Theme */
+    --primary-color: #46cdd0;
+    --secondary-color: #337ab7;
+    /* Text Palette */
+    --primary-text-color: #1faef0;
+
+    /* Background Palette */
+    --background-white-light: #f9f9f9;
+    --background-white-medium: #f4f4f4;
+    --background-hover: #eee;
+
+    /* Border Palette */
+    --border-color: #f4f4f4;
+}
