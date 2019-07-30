@@ -1,0 +1,42 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.btn-delete {
+    max-height: 30px;
+}
+
+.content {
+    margin: 3em 2em;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.content::first-letter {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.comments {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.comments h6 {
+    font-weight: 600;
+    color: grey;
+    border-bottom: 4px solid grey;
+}
