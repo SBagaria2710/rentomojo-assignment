@@ -73,7 +73,7 @@ class Post extends React.Component<any, IPostState> {
                 <div className='container-fluid'>
                     <div className='header'>
                         <h3 className='title'>{postTitle.toUpperCase()}</h3>
-                        <button onClick={this.deletePost} className='btn btn-outline-danger btn-sm btn-delete'>Delete</button>
+                        <button onClick={this.deletePost} className='btn btn-outline-danger btn-sm btn-delete'><i style={{paddingRight: '0.5em'}} className="fa fa-trash" aria-hidden="true"></i>Delete</button>
                     </div>
                     <div className='content'>{postBody}</div>
                     <div className='comments'>
