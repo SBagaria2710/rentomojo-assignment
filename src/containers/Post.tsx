@@ -30,12 +30,11 @@ class Post extends React.Component<any, IPostState> {
                 postTitle: postData.title,
                 postBody: postData.body
             }
-        }))
+        }), () => getUsers(this.findUserName))
     }
 
     componentDidMount() {
         getPost(this.state.postId, this.updatePostData)
-        getUsers(this.findUserName)
     }
 
     findUserName = (users) => {
