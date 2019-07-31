@@ -23,7 +23,7 @@ class Comments extends React.Component<ICommentProps, ICommentState> {
     render() {
         return (
             <ul className='comment-section'>
-                <Comment comments={this.state.comments} />
+                {this.state.comments.length?<Comment comments={this.state.comments} />:<p className='text-center mt-5'>Loading Comments ...</p>}
             </ul>
         );
     }

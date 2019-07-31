@@ -12,6 +12,12 @@
 
 .btn-delete {
     max-height: 30px;
+    display: flex;
+}
+
+.btn-delete i {
+    padding-right: 0.5em;
+    margin-top: 3px !important;
 }
 
 .content {
