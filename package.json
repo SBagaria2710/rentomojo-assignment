@@ -12,7 +12,7 @@
   "author": "Shashwat Bagaria",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "express": "^4.16.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
